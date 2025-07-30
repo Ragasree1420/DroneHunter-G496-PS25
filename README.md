@@ -64,12 +64,16 @@ The system follows a dual-branch architecture that combines a detection and trac
 
 ## 🤝 Contributors
 
-👤 Name	🌐 GitHub Profile
-Cheela Vaishnavi	@cheelavaishnavi123
-Chandanala Sirivally	@sirivallych
-Gaddam Ragasree	@Ragasree1420
-Muddam Sahasra	@sahasra2617
-Shaik Mahaboob Thahaseena	@Thahaseena0517
+## 👥 Team Members
+
+| Name               | 🌐 GitHub Profile                          |
+|--------------------|--------------------------------------------|
+| Cheela Vaishnavi   | [@cheelavaishnavi123](https://github.com/cheelavaishnavi123) |
+| Chandanala Sirivally | [@sirivallych](https://github.com/sirivallych) |
+| Gaddam Ragasree    | [@Ragasree1420](https://github.com/Ragasree1420) |
+| Muddam Sahasra     | [@sahasra2617](https://github.com/sahasra2617) |
+| Shaik Mahaboob Thahaseena | [@Thahaseena0517](https://github.com/Thahaseena0517) |
+
 
 
 
