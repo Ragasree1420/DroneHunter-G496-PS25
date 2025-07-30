@@ -1,4 +1,4 @@
-# AntiUAV600: Real-World UAV Detection and Tracking
+# DRONE HUNTER
 
 ## 📌 Project Introduction
 
@@ -17,11 +17,34 @@ AntiUAV600 is a large-scale thermal infrared dataset developed to train and eval
 - **Attributes**: Occlusion, Fast Motion, Scale Variation, Out-of-View, etc.
 
 ## 🧠 Architecture 
+The system follows a dual-branch architecture that combines a detection and tracking pipeline for robust UAV perception. The detection branch uses a YOLO-based multi-scale prediction head to identify UAVs in complex backgrounds. Once detected, the tracking branch—based on a Siamese network—continuously follows the UAV using relevance decoupling and evidential reasoning. The system adaptively switches between detection and tracking based on confidence levels, ensuring accurate and real-time monitoring even under occlusion, fast motion, and varying scales.
+![alt text](architecture.png)
 
-The system uses an adaptive dual-branch approach:
-- **Detection Branch**: Uses global search with a YOLO-style multi-scale head to detect UAVs in complex backgrounds.
-- **Tracking Branch**: When confident, switches to local tracking using previously seen information to reduce computation.
-- **Switching Logic**: Decides between detection and tracking based on confidence and evidential reasoning (uncertainty estimation).
+## 🧠 WorkFlow Diagram 
+![alt text](work_flow.png)
+
+## 🚀 Why Agentic workflows
+| 💼 **Feature**                      | 🔍 **Justification**                                                                 |
+| ----------------------------------- | ------------------------------------------------------------------------------------ |
+| **1. Adaptive Decision-Making**     | Automatically switches between detection and tracking based on current scene status. |
+| **2. Dynamic Modality Switching**   | System dynamically decides whether to detect or track based on confidence scores.    |
+| **3. Evidential Reasoning**         | Uses an Evidential Head to reason about uncertainty before deciding an action.       |
+| **4. Goal-Oriented Behavior**       | Operates with a clear goal: continuous UAV localization regardless of visibility.    |
+| **5. High Autonomy**                | Minimizes manual control; system self-manages based on UAV appearance patterns.      |
+| **6. Real-Time Adaptability**       | Reacts to motion blur, occlusion, and sudden UAV re-appearance without reset.        |
+| **7. Context-Aware Intelligence**   | Considers visibility, evidence, and confidence to select optimal branch.             |
+| **8. Robustness in Complex Scenes** | Maintains performance even in sky, forest, urban, or river backgrounds.              |
+
+### Tech Stack Used
+
+| Component             | Description                                                       |
+|----------------------|-------------------------------------------------------------------|
+| Detection Backbone   | YOLO-based multi-scale prediction head (for initial UAV detection)|
+| Tracking Module      | Siamese network with relevance decoupling for local tracking      |
+| Framework            | PyTorch / TensorFlow (for model training and inference)           |
+| Deployment Tools     | CUDA for GPU acceleration, OpenCV for video processing            |
+
+
 
 ## 🚀 Applications
 
@@ -39,10 +62,12 @@ The system uses an adaptive dual-branch approach:
 
 ## 🤝 Contributors
 
-- Vaishnavi
-- Sirivally
-- Ragasree
-- Sahasra
-- Thahaseena
+👤 Name	🌐 GitHub Profile
+Cheela Vaishnavi	@cheelavaishnavi123
+Chandanala Sirivally	@sirivallych
+Gaddam Ragasree	@Ragasree1420
+Muddam Sahasra	@sahasra2617
+Shaik Mahaboob Thahaseena	@Thahaseena0517
+
 
 
