@@ -18,10 +18,12 @@ AntiUAV600 is a large-scale thermal infrared dataset developed to train and eval
 
 ## 🧠 Architecture 
 The system follows a dual-branch architecture that combines a detection and tracking pipeline for robust UAV perception. The detection branch uses a YOLO-based multi-scale prediction head to identify UAVs in complex backgrounds. Once detected, the tracking branch—based on a Siamese network—continuously follows the UAV using relevance decoupling and evidential reasoning. The system adaptively switches between detection and tracking based on confidence levels, ensuring accurate and real-time monitoring even under occlusion, fast motion, and varying scales.
-![alt text](architecture.png)
+<img width="1137" height="505" alt="Screenshot 2025-07-29 134137" src="https://github.com/user-attachments/assets/a28ee78a-299e-4ffd-b689-f66dd8949fca" />
+
 
 ## 🧠 WorkFlow Diagram 
-![alt text](work_flow.png)
+<img width="1044" height="582" alt="image" src="https://github.com/user-attachments/assets/4aac40cd-7b56-4e3f-8910-99c2de6d0e83" />
+
 
 ## 🚀 Why Agentic workflows
 | 💼 **Feature**                      | 🔍 **Justification**                                                                 |
